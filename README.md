@@ -34,6 +34,9 @@ The file output-simple/part-r-00000 will contain the results.
 To compile and run project1:
 
 cd project1
+
 mvn install
+
 rm -rf output
+
 ~/hadoop-2.6.5/bin/hadoop jar target/*.jar Histogram pixels-small.txt output
